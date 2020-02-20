@@ -1,6 +1,6 @@
 # Write your code here.
 katz_deli = []
-placeInLine = 1
+$placeInLine = 0
 
 def line(place)
   if place.length > 0
@@ -27,9 +27,8 @@ def now_serving(katz_deli)
 end
 
 def take_a_number_two()
-  placeInLine = placeInLine + 1
-  puts ("You are number #{placeInLine} in line.")
-  return placeInLine
+  $placeInLine += 1
+  puts ("You are number #{$placeInLine} in line.")
 end
   
   
