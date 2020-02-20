@@ -32,6 +32,7 @@ def take_a_number_two()
 end
   
 take_a_number_two()
+take_a_number_two()
   
   
   
