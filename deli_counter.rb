@@ -2,7 +2,7 @@
 katz_deli = []
 $placeInLine = 0
 
-
+take_a_number_two()
 
 def line(place)
   if place.length > 0
