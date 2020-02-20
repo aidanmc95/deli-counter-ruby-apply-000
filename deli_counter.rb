@@ -27,7 +27,9 @@ def now_serving(katz_deli)
 end
 
 def take_a_number_two()
-  puts ("Welcome, #{name}. You are number #{katz_deli.length} in line.")
+  placeInLine = placeInLine + 1
+  puts ("You are number #{placeInLine} in line.")
+  return placeInLine
 end
   
   
