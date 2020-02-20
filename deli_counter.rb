@@ -2,8 +2,6 @@
 katz_deli = []
 $placeInLine = 0
 
-take_a_number_two()
-
 def line(place)
   if place.length > 0
     statement = 'The line is currently:'
@@ -33,7 +31,7 @@ def take_a_number_two()
   puts ("You are number #{$placeInLine} in line.")
 end
   
-  
+take_a_number_two()
   
   
   
