@@ -1,6 +1,6 @@
 # Write your code here.
 katz_deli = []
-
+placeInLine = 1
 
 def line(place)
   if place.length > 0
@@ -25,3 +25,14 @@ def now_serving(katz_deli)
     puts "There is nobody waiting to be served!"
   end
 end
+
+def take_a_number_two()
+  puts ("Welcome, #{name}. You are number #{katz_deli.length} in line.")
+end
+  
+  
+  
+  
+  
+  
+  
