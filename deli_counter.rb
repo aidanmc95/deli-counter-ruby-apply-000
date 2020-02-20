@@ -2,6 +2,8 @@
 katz_deli = []
 $placeInLine = 0
 
+
+
 def line(place)
   if place.length > 0
     statement = 'The line is currently:'
